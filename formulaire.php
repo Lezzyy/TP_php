@@ -38,8 +38,8 @@
 
     <div class="container">
       <form action="secret.php" method="post">
-        <input type="text" name="name">
-        <input type="text" name="password">
+        <input type="text" name="name"></br>
+        <input type="text" name="password"></br>
         <input type="submit" name="OK" value="OK">
       </form>
     </div>
