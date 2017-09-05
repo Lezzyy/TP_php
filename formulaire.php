@@ -33,15 +33,19 @@
 
     <!-- TU CODE ICI -->
     <header>
-      <p class="text-center">PLEASE ENTER CORRECT PASSWORD</p>
+      <div class="container title">
+        <p class="text-center">PLEASE ENTER CORRECT PASSWORD</p>
+      </div>
     </header>
 
-    <div class="container">
+    <div class="container form">
+      <div class="row">
       <form action="secret.php" method="post">
-        <input type="text" name="name"></br>
-        <input type="text" name="password"></br>
+        <input type="text" name="name" placeholder="NAME"></br>
+        <input type="text" name="password" placeholder="PASSWORD"></br>
         <input type="submit" name="OK" value="OK">
       </form>
+      </div>
     </div>
 
 
