@@ -42,7 +42,7 @@
       <div class="row">
       <form action="secret.php" method="post">
         <input type="text" name="name" placeholder="NAME"></br>
-        <input type="text" name="password" placeholder="PASSWORD"></br>
+        <input type="password" name="password" placeholder="PASSWORD"></br>
         <input type="submit" name="OK" value="OK">
       </form>
       </div>
