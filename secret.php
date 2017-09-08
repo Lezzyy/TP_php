@@ -22,16 +22,37 @@
 
 <?php
 if (isset($_POST['name']) and isset($_POST['password'])) {
-    // $_POST['name']=(string)$_POST['name'];
 
     if ($_POST['password']=='kangourou') {
-        echo 'Authorised access'. '<br/>'.' Welcome '. strip_tags($_POST['name']).'<br/>'.'Here the codes :';
-        include('code.php');
+      echo ' Welcome '. strip_tags($_POST['name']).'<br/>'.'Here the codes :';;
+  ?>
+  <table>
+      <tr>
+        <th>NAME</th>
+        <th>CODE</th>
+      </tr>
+      <tr>
+        <th>hghg</th>
+        <th>13556</th>
+      </tr>
+      <tr>
+        <th>hjgjg</th>
+        <th>987960</th>
+      </tr>
+      <tr>
+        <th>kjhmioio</th>
+        <th>080769865</th>
+      </tr>
+      <tr>
+        <th>BHH</th>
+        <th>65376</th>
+      </tr>
+  </table>
+<?php
     } else {
         header('Location: formulaire.php');
     }
 }
-
 ?>
 
 <style>
