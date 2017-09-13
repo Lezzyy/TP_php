@@ -21,10 +21,10 @@
 
 
 <?php
-if (isset($_POST['name']) and isset($_POST['password'])) {
+if (isset($_POST['name']) AND isset($_POST['password'])) {
 
     if ($_POST['password']=='kangourou') {
-      echo ' Welcome '. strip_tags($_POST['name']).'<br/>'.'Here the codes :';;
+      echo ' Welcome '. strip_tags($_POST['name']).'<br/>'.'Here the codes :';
   ?>
   <table>
       <tr>
